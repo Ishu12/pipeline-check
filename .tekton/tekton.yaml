@@ -1,5 +1,5 @@
 owners:
-  - "@openshift-pipelines"
+  - "@Ishu"
 
 tasks:
   - git-clone
