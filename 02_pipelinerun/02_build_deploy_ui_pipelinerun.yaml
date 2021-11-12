@@ -7,11 +7,11 @@ spec:
     name: build-and-deploy
   params:
   - name: deployment-name
-    value: pipelines-vote-ui
+    value: kubetime
   - name: git-url
-    value: https://github.com/openshift/pipelines-vote-ui.git
+    value: https://github.com/Ishu12/tekton.git
   - name: IMAGE
-    value: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/pipelines-vote-ui
+    value: image-registry.openshift-image-registry.svc:5000/pipelines-check/kubetime
   workspaces:
   - name: shared-workspace
     volumeClaimTemplate:
